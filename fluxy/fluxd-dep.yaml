@@ -11,20 +11,12 @@ spec:
       labels:
         name: fluxd
     spec:
-      volumes:
-      - name: git-key
-        secret:
-          secretName: flux-git-deploy
-#          defaultMode: 0400 # ignored by Kubernetes < 1.6
       containers:
       - name: fluxd
-        image: quay.io/squaremo/fluxd
+        image: quay.io/weaveworks/fluxd
         imagePullPolicy: IfNotPresent
-        volumeMounts:
-        - name: git-key
-          mountPath: /secrets/flux/git
         args:
-        - --git-url=git@github.com:squaremo/flux-example
-        - --git-key=/secrets/flux/git/id-rsa-flux
-        - --connect=ws://authfe.default.svc.cluster.local/api/flux
         - --token=pj38xti4qc3zaz1n4afyc675g3kzf88a
+        #  connect to the local service
+        - --fluxsvc-address=ws://frontend.default.svc.cluster.local/api/flux
+
