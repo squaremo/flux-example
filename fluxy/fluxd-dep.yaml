@@ -11,12 +11,13 @@ spec:
       labels:
         name: fluxd
     spec:
+      serviceAccountName: weave-flux
       containers:
       - name: fluxd
         image: quay.io/weaveworks/fluxd
         imagePullPolicy: IfNotPresent
         args:
-        - --token=pj38xti4qc3zaz1n4afyc675g3kzf88a
+        - --token=dhne9qr8c9mez4nijaurdtrcb5uqjkwc
         #  connect to the local service
-        - --fluxsvc-address=ws://frontend.default.svc.cluster.local/api/flux
+        - --fluxsvc-address=ws://authfe.default.svc.cluster.local/api/flux
 
