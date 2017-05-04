@@ -20,7 +20,7 @@ spec:
         image: library/postgres
         imagePullPolicy: IfNotPresent
         env:
-        - name: DB_PASS
+        - name: POSTGRESS_PASSWORD
           value: password
         - name: PGDATA
           value: /var/lib/postgresql/data/pgdata
