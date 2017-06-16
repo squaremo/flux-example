@@ -1,0 +1,1 @@
+{"jobID":"385c9f9b-7ffd-ed10-8280-ed771e588fff","spec":{"type":"policy","cause":{"Message":"","User":"mikeb"},"spec":{"hello/helloworld":{"add":null,"remove":["automated"]}}},"result":null}
