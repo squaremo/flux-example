@@ -1,0 +1,1 @@
+{"jobID":"9ab8edeb-d920-d6b0-eaf0-2b2d8e849604","spec":{"type":"policy","cause":{"Message":"","User":"test@test"},"spec":{"olleh/helloworld":{"add":{"automated":"true"},"remove":null}}},"result":null}
