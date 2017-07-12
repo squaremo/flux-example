@@ -1,0 +1,1 @@
+{"jobID":"de43e2cd-a0d7-9af8-6caf-cb95fa37e6c8","spec":{"type":"policy","cause":{"Message":"","User":"test@test"},"spec":{"hello/flux":{"add":null,"remove":{"automated":"true"}}}},"result":null}
