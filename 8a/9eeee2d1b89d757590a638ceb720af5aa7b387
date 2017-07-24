@@ -1,0 +1,1 @@
+{"jobID":"5b627574-8bfc-363b-468b-16cf0a814660","spec":{"type":"policy","cause":{"Message":"","User":"mikeb"},"spec":{"hello/helloworld":{"add":{"tag.hello":"glob:master-a*","tag_all":"glob:master-*"},"remove":{"automated":"true"}}}},"result":null}
