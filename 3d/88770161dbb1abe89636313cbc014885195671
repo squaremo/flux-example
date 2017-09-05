@@ -1,0 +1,1 @@
+{"jobID":"2ccca75b-a8c8-f2df-4985-a6f9dff90049","spec":{"type":"policy","cause":{"Message":"Locking with a message","User":"mikeb"},"spec":{"hello/helloworld":{"add":{"locked":"true"},"remove":null}}},"result":null}
