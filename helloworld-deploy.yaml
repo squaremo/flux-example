@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: quay.io/squaremo/hello_world:master-a000002
+        image: gcr.io/gcr-flux-issue778-182110/helloworld:01
         args:
         - -msg=Ahoy
         ports:
