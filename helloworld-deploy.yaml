@@ -4,7 +4,6 @@ metadata:
   annotations:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.hello: glob:master-a*
-    flux.weave.works/tag.helloworld: glob:master-*
     flux.weave.works/tag.sidecar: glob:master-*
   name: helloworld
   namespace: hello
