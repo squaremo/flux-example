@@ -1,0 +1,1 @@
+{"jobID":"9f90c614-f46f-0462-f497-59eb01103638","spec":{"type":"policy","cause":{"Message":"","User":"michael michael@weave.works"},"spec":{"hello/helloworld":{"add":null,"remove":{"automated":"true"}}}},"result":null}
