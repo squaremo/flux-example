@@ -1,0 +1,1 @@
+{"jobID":"719caa73-51fa-3699-2224-d3f328452894","spec":{"type":"policy","cause":{"Message":"","User":"michael michael@weave.works"},"spec":{"hello/helloworld":{"add":{"tag.helloworld":"glob:master-a00000*"},"remove":null}}},"result":null}
