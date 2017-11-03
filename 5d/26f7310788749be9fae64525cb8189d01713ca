@@ -1,0 +1,1 @@
+{"jobID":"9fd97175-c975-1b8a-cfac-107862d85b5c","spec":{"type":"policy","cause":{"Message":"","User":"test \u003ctest@test\u003e"},"spec":{"hello:deployment/helloworld":{"add":null,"remove":{"locked":"true"}}}},"result":null}
