@@ -37,4 +37,4 @@ spec:
         - --git-set-author
         - --git-label=flux-gitsync
         - --token=local-test-token
-        - --connect=ws://authfe.default.svc.cluster.local/api/flux
+#        - --connect=ws://authfe.default.svc.cluster.local/api/flux
