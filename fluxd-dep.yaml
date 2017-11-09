@@ -33,7 +33,7 @@ spec:
         - --memcached-timeout=100ms
         - --memcached-service=memcached
         - --git-url=git@github.com:squaremo/flux-example
-        - --git-branch=gitsync
+        - --git-branch=fresh
         - --git-set-author
         - --git-label=flux-gitsync
         - --token=local-test-token
