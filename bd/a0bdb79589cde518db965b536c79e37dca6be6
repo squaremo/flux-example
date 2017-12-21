@@ -1,0 +1,1 @@
+{"jobID":"9a1a40f1-22e7-b3ed-ad70-609f28c7222b","spec":{"type":"policy","cause":{"Message":"Lock time is OVER","User":"michael \u003cmichael@weave.works\u003e"},"spec":{"hello:deployment/helloworld":{"add":null,"remove":{"locked":"true","locked_msg":"Lock time is OVER","locked_user":"michael \u003cmichael@weave.works\u003e"}}}},"result":null}
