@@ -1,0 +1,1 @@
+{"jobID":"daa81ddc-a4d1-f572-100b-b90b751e842c","spec":{"type":"policy","cause":{"Message":"I am demoing lock messages.","User":"michael \u003cmichael@weave.works\u003e"},"spec":{"hello:deployment/helloworld":{"add":{"locked":"true","locked_msg":"I am demoing lock messages.","locked_user":"michael \u003cmichael@weave.works\u003e"},"remove":null}}},"result":null}
