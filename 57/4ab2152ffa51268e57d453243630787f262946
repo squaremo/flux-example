@@ -1,0 +1,1 @@
+{"jobID":"4d570aff-d2db-a813-10d9-55660e37a323","spec":{"type":"policy","cause":{"Message":"The demo is almost over.","User":"michael \u003cmichael@weave.works\u003e"},"spec":{"hello:deployment/helloworld":{"add":null,"remove":{"locked":"true","locked_msg":"The demo is almost over.","locked_user":"michael \u003cmichael@weave.works\u003e"}}}},"result":null}
