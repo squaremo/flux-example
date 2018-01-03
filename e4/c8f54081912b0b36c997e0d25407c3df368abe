@@ -1,0 +1,1 @@
+{"jobID":"1fe36dbc-1663-5347-e7d8-fc518ac2ad8a","spec":{"type":"policy","cause":{"Message":"Again again.","User":"michael \u003cmichael@weave.works\u003e"},"spec":{"hello:deployment/helloworld":{"add":null,"remove":{"locked":"true","locked_msg":"Again again.","locked_user":"michael \u003cmichael@weave.works\u003e"}}}},"result":null}
