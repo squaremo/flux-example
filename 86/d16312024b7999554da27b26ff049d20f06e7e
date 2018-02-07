@@ -1,0 +1,1 @@
+{"jobID":"6ec1e605-66c4-665a-0f46-1a1b24f3840e","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmichael@weave.works\u003e"},"spec":{"hello:deployment/helloworld":{"add":{"automated":"true"},"remove":{}}}},"result":null}
