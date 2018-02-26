@@ -1,0 +1,1 @@
+{"jobID":"49c313d5-4bed-24a8-1c0b-4617551b6d83","spec":{"type":"policy","cause":{"Message":"It needs to be free!","User":"test \u003ctest@test.test\u003e"},"spec":{"hello:deployment/helloworld":{"add":null,"remove":{"locked":"true","locked_msg":"It needs to be free!","locked_user":"test \u003ctest@test.test\u003e"}}}},"result":null}
