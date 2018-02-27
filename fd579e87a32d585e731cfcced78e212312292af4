@@ -1,0 +1,1 @@
+{"jobID":"2f4024ef-3e63-ec5d-97d8-8a539132fafb","spec":{"type":"policy","cause":{"Message":"","User":"michael \u003cmichael@weave.works\u003e"},"spec":{"hello:deployment/helloworld":{"add":{"automated":"true"},"remove":null}}},"result":null}
