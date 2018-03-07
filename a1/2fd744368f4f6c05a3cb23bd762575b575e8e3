@@ -1,0 +1,1 @@
+{"jobID":"8c9d8d03-92fc-be9d-102c-6c8f088eb9df","spec":{"type":"policy","cause":{"Message":"unlock with multiline\n\n\nmessage","User":"test \u003ctest@test.test\u003e"},"spec":{"hello:deployment/olleh":{"add":null,"remove":{"locked":"true","locked_msg":"unlock with multiline\n\n\nmessage","locked_user":"test \u003ctest@test.test\u003e"}}}},"result":null}
