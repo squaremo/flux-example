@@ -1,0 +1,1 @@
+{"jobID":"8d13a5ad-d669-ffdf-bb0e-f92ce35b6c8e","spec":{"type":"policy","cause":{"Message":"M\nU\nL\nT\nI","User":"test \u003ctest@test.test\u003e"},"spec":{"hello:deployment/olleh":{"add":{"locked":"true","locked_msg":"M\nU\nL\nT\nI","locked_user":"test \u003ctest@test.test\u003e"},"remove":null}}},"result":null}
