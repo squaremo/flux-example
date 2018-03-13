@@ -1,0 +1,1 @@
+{"jobID":"0b520bc6-64bb-dbc4-dba7-febd6345066a","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmichael@weave.works\u003e"},"spec":{"hello:deployment/olleh":{"add":{"automated":"true","tag.ollehworld":"glob:master-*"},"remove":{}}}},"result":null}
