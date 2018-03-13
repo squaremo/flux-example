@@ -7,6 +7,9 @@ items:
   metadata:
     name: olleh
     namespace: hello
+    annotations:
+      flux.weave.works/automated: 'true'
+      flux.weave.works/tag.ollehworld: glob:master-*
   spec:
     minReadySeconds: 1
     replicas: 5
