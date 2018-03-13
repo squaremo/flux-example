@@ -3,7 +3,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   annotations:
-    flux.weave.works/automated: "true"
+    flux.weave.works/automated: 'true'
     flux.weave.works/tag.helloworld: glob:master-*
 #    flux.weave.works/tag.sidecar: glob:3.*
   name: helloworld
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: quay.io/weaveworks/helloworld:master-07a1b6b
+        image: quay.io/weaveworks/helloworld:master-a000004
         args:
         - -msg=Bilbo Baggins
         ports:
