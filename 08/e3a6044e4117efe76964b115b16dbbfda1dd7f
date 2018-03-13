@@ -1,0 +1,1 @@
+{"jobID":"c5def552-7f73-8f14-7057-13e305c10b07","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmichael@weave.works\u003e"},"spec":{"hello:statefulset/helloset":{"add":{"automated":"true","tag_all":"glob:master-*"},"remove":{}}}},"result":null}
