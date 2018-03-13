@@ -1,0 +1,1 @@
+{"jobID":"c99bbf0c-a8c0-def2-6f38-6356f18da330","spec":{"type":"policy","cause":{"Message":"Lock it up! Lock it all up!","User":"Michael Bridgen \u003cmichael@weave.works\u003e"},"spec":{"hello:statefulset/helloset":{"add":{"locked":"true","locked_msg":"Lock it up! Lock it all up!","locked_user":"Michael Bridgen \u003cmichael@weave.works\u003e"},"remove":{}}}},"result":null}
