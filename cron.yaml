@@ -36,3 +36,19 @@ spec:
                     "description":"to all the people in the world",
                     "priority":"P1"
                   }
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  namespace: hello
+  name: helloset
+spec:
+  template:
+        spec:
+      containers:
+      - name: helloworld
+        image: quay.io/weaveworks/helloworld:master-a000004
+        args:
+        - -msg=Stateful somehow
+        ports:
+        - containerPort: 80
