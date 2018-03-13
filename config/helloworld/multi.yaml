@@ -43,7 +43,14 @@ metadata:
   namespace: hello
   name: helloset
 spec:
+  serviceName: helloset
+  selector:
+    matchLabels:
+      name: helloset
   template:
+    metadata:
+      labels:
+        name: helloset
     spec:
       containers:
       - name: helloworld
