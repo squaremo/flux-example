@@ -9,7 +9,7 @@ spec:
   # after the Wednesday UK handover (1500 local time) rather than five minutes
   # after during standard time. Can be improved when
   # https://github.com/kubernetes/kubernetes/issues/47202 is fixed.
-  schedule: "* * * * *"
+  schedule: '* * * * *'
   jobTemplate:
     spec:
       template:
@@ -31,17 +31,20 @@ spec:
             - 'Authorization: xxxxxxx'
             - -d
             - |-
-                 {
-                    "message": "HELLO",
-                    "description":"to all the people in the world",
-                    "priority":"P1"
-                  }
+              {
+                 "message": "HELLO",
+                 "description":"to all the people in the world",
+                 "priority":"P1"
+               }
 ---
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   namespace: hello
   name: helloset
+  annotations:
+    flux.weave.works/automated: 'true'
+    flux.weave.works/tag.helloworld: glob:master-*
 spec:
   serviceName: helloset
   selector:
