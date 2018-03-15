@@ -1,0 +1,1 @@
+{"jobID":"61ee745a-980f-7b2c-2851-3544074025bf","spec":{"type":"policy","cause":{"Message":"Automate this to try skip message","User":"Michael Bridgen \u003cmichael@weave.works\u003e"},"spec":{"hello:deployment/helloworld":{"add":{"automated":"true"},"remove":{}}}},"result":null}
