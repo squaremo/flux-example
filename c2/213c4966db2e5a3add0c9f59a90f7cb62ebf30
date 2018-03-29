@@ -1,0 +1,1 @@
+{"jobID":"37200733-bed9-7f60-3bbf-02428d6927b2","spec":{"type":"policy","cause":{"Message":"Unlockety","User":"Michael Bridgen \u003cmichael@weave.works\u003e"},"spec":{"hello:deployment/helloworld":{"add":{},"remove":{"locked":"true","locked_msg":"true","locked_user":"true"}}}},"result":null}
