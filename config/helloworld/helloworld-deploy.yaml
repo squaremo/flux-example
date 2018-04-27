@@ -3,8 +3,6 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
 #    flux.weave.works/tag.sidecar: glob:3.*
-  annotations:
-    flux.weave.works/automated: "true"
   name: helloworld
   namespace: hello
 spec:
