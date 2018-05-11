@@ -4,6 +4,8 @@ kind: Deployment
 metadata:
 #    flux.weave.works/tag.sidecar: glob:3.*
   annotations:
+    flux.weave.works/tag.helloworld: glob:master-*
+    flux.weave.works/tag.sidecar: glob:master-*
     some.other.com/foo: bar
   name: helloworld
   namespace: hello
