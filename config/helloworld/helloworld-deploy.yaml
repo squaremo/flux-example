@@ -5,6 +5,7 @@ metadata:
 #    flux.weave.works/tag.sidecar: glob:3.*
   annotations:
     flux.weave.works/automated: "true"
+    some.other.com/foo: bar
   name: helloworld
   namespace: hello
 spec:
