@@ -1,0 +1,1 @@
+{"jobID":"65e8a88d-96f6-c7b2-bed3-0215ffa0bf79","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmichael@weave.works\u003e"},"spec":{"default:fluxhelmrelease/mariadb":{"add":{"automated":"true"},"remove":{}}}},"result":null}
