@@ -20,7 +20,7 @@ spec:
           restartPolicy: OnFailure
           containers:
           - name: weekly-curl-homepage
-            image: centos # Has curl installed by default
+            image: centos:7 # Has curl installed by default
             imagePullPolicy: Always
             command:
             - /bin/curl
