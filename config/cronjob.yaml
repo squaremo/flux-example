@@ -1,0 +1,30 @@
+---
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  namespace: default
+  name: weekly-curl-homepage
+  annotations:
+    weave.works.some-annotation: Just for fidelity
+spec:
+  # Here is a multiline comment
+  # to replicate the origin YAML closely
+  schedule: "5 18 * * 3"
+  # Deleting jobs after they're done will clean up their 'Completed' pods,
+  # thereby avoiding spurious PodNotReady alerts
+  successfulJobsHistoryLimit: 0
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+          - name: weekly-curl-homepage
+            image: centos # Has curl installed by default
+            imagePullPolicy: Always
+            command:
+            - /bin/curl
+            args:
+            - -X
+            - GET
+            - https://weave.works/
