@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
@@ -9,14 +10,14 @@ spec:
   template:
     metadata:
       labels:
-        app : www-example-io
+        app: www-example-io
     spec:
       containers:
-        - name: www-example-io
-          image: quay.io/weaveworks/helloworld:master-a000001
-          imagePullPolicy: Always
-          ports:
-          - containerPort: 80
+      - name: www-example-io
+        image: quay.io/weaveworks/helloworld:master-07a1b6b
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
       imagePullSecrets:
       - name: secrete
 ---
