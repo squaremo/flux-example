@@ -1,0 +1,37 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    flux.weave.works/automated: "true"
+  name: www-example-io
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app : www-example-io
+    spec:
+      containers:
+        - name: www-example-io
+          image: quay.io/weaveworks/helloworld:master-a000001
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 80
+      imagePullSecrets:
+      - name: secrete
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: www-example-io
+  name: www-example-service
+spec:
+  type: NodePort
+  ports:
+  - name: www-example-io
+    port: 80
+    protocol: TCP
+  selector:
+    app: www-example-io
