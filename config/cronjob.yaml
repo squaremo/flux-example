@@ -6,6 +6,7 @@ metadata:
   name: weekly-curl-homepage
   annotations:
     weave.works.some-annotation: Just for fidelity
+    flux.weave.works/automated: 'true'
 spec:
   # Here is a multiline comment
   # to replicate the origin YAML closely
