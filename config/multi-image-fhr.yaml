@@ -1,0 +1,49 @@
+---
+apiVersion: helm.integrations.flux.weave.works/v1alpha2
+kind: FluxHelmRelease
+metadata:
+  name: openfaas
+  namespace: openfaas
+  labels:
+    chart: openfaas
+spec:
+  chartGitPath: openfaas
+  releaseName: openfaas
+  values:
+    gateway:
+      image: functions/gateway:0.8.2
+      readTimeout : "20s"
+      writeTimeout : "20s"
+      replicas: 2
+    operator:
+      image: functions/openfaas-operator:0.7.0
+    # control the async parallelism the worker replica count
+    queueWorker:
+      replicas: 3
+    # if you use HPA v2 disable auto-scaling based on req/sec
+    autoscaling:
+      enabled: false
+    exposeServices: false
+    rbac: true
+    # requires the basic-auth secret mounted at /var/secrets
+    basic_auth:
+      enabled: true
+    images:
+      prometheus: prom/prometheus:v2.2.0
+      alertmanager: prom/alertmanager:v0.15.0-rc.1
+      nats: nats-streaming:0.6.0
+      queueWorker: functions/queue-worker:0.4.3
+    ingress:
+      enabled: true
+      annotations:
+        kubernetes.io/ingress.class: "contour"
+        certmanager.k8s.io/cluster-issuer: "openfaas"
+      hosts:
+        - host: openfaas.weavedx.com
+          serviceName: gateway
+          servicePort: 8080
+          path: /
+      tls:
+        - secretName: openfaas-cert
+          hosts:
+          - openfaas.weavedx.com
