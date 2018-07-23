@@ -11,6 +11,6 @@ metadata:
 spec:
   chartGitPath: mariadb
   values:
-    image: bitnami/mariadb:10.2
+    image: bitnami/mariadb:10.2.16-ol-7-r25
     persistence:
       enabled: false
