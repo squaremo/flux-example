@@ -1,0 +1,1 @@
+{"jobID":"f21000e2-db2d-aa74-1263-ce0813c448f3","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmikeb@squaremobius.net\u003e"},"spec":{"hello:deployment/helloworld":{"add":{"automated":"true"},"remove":{}}}},"result":null}
