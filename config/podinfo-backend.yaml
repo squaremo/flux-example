@@ -1,0 +1,14 @@
+apiVersion: helm.integrations.flux.weave.works/v1alpha
+kind: FluxHelmRelease
+metadata:
+  name: backend
+  namespace: default
+  labels:
+    chart: podinfo
+spec:
+  chartGitPath: podinfo
+  releaseName: backend
+  values:
+    image:
+      repository: stefanprodan/podinfo
+      tag: 0.0.6
