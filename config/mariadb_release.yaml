@@ -6,11 +6,20 @@ metadata:
   namespace: default
   labels:
     chart: mariadb
-  annotations:
-    flux.weave.works/automated: 'true'
 spec:
   chartGitPath: mariadb
   values:
-    image: bitnami/mariadb:10.2-ol-7-master
+    maria:
+      image: bitnami/mariadb:10.2-ol-7-master
+    frank:
+      image: sidecars-inc/frank
+      tag: v1
+      noise: here
+    des:
+      mondo: true
+      image:
+        repository: sidecars-inc/desmondo
+        tag: 0.1.8
+
     persistence:
       enabled: false
