@@ -1,0 +1,1 @@
+{"jobID":"9a8acd7b-7f19-075d-d2d5-0c6c2980752c","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmikeb@squaremobius.net\u003e"},"spec":{"hello:deployment/helloworld":{"add":{"tag.helloworld":"semver:^1"},"remove":{}}}},"result":null}
