@@ -1,0 +1,1 @@
+{"jobID":"f4157c96-31c3-e002-a90a-bbd5fd794245","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmikeb@squaremobius.net\u003e"},"spec":{"default:cronjob/weekly-curl-homepage":{"add":{"tag.weekly-curl-homepage":"semver:^6"},"remove":{}}}},"result":null}
