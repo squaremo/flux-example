@@ -1,0 +1,23 @@
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+#    flux.weave.works/tag.sidecar: glob:3.*
+  name: helloworld
+  namespace: olleh
+spec:
+  minReadySeconds: 1
+  replicas: 5
+  template:
+    metadata:
+      labels:
+        name: helloworld
+    spec:
+      containers:
+      - name: helloworld
+        image: weaveworks/hello-world
+        args:
+        - -greeting=Ahoy
+        ports:
+        - containerPort: 80
+      restartPolicy: Always
