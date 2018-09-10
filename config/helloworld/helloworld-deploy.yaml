@@ -20,7 +20,7 @@ spec:
       - name: init
         image: quay.io/weaveworks/helloworld:master-a000001
         args:
-        - -greeting=Init
+        - -msg=Init
       containers:
       - name: helloworld
         image: weaveworks/hello-world:alpine
