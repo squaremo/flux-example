@@ -19,7 +19,7 @@ spec:
 #      initContainers:
       containers:
       - name: init
-        image: quay.io/weaveworks/helloworld:master-a000001
+        image: quay.io/weaveworks/helloworld:master-07a1b6b
         args:
         - -msg=Init
       - name: helloworld
