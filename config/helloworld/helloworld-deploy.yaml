@@ -16,12 +16,12 @@ spec:
       labels:
         name: helloworld
     spec:
-#      initContainers:
-      containers:
+      initContainers:
       - name: init
-        image: quay.io/weaveworks/helloworld:master-07a1b6b
+        image: quay.io/weaveworks/helloworld:master-a000001
         args:
         - -msg=Init
+      containers:
       - name: helloworld
         image: weaveworks/hello-world:alpine
         args:
