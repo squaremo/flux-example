@@ -6,6 +6,7 @@ metadata:
   annotations:
     some.other.com/foo: bar
     flux.weave.works/automated: 'true'
+    flux.weave.works/tag.helloworld: regexp:^latest|alpine$
   name: helloworld
   namespace: hello
 spec:
