@@ -1,0 +1,1 @@
+{"jobID":"4118a085-8df4-59ec-6cc0-7548c36777e3","spec":{"type":"policy","cause":{"Message":"","User":"michael \u003cmichael@weave.works\u003e"},"spec":{"hello:deployment/helloworld":{"add":{"tag.helloworld":"regexp:^latest|alpine$"},"remove":null}}},"result":null}
