@@ -26,7 +26,7 @@ spec:
         - -msg=Init
       containers:
       - name: helloworld
-        image: weaveworks/hello-world:alpine
+        image: weaveworks/hello-world:latest
         args:
         - -greeting=Ahoy
         ports:
