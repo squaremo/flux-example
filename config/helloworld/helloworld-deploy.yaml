@@ -8,6 +8,7 @@ metadata:
     flux.weave.works/automated: 'true'
     flux.weave.works/tag.helloworld: regexp:^latest|alpine$
     flux.weave.works/tag.hello: glob:master-*
+    flux.weave.works/tag.init: glob:master-*
   name: helloworld
   namespace: hello
 spec:
