@@ -1,5 +1,5 @@
 ---
-apiVersion: helm.integrations.flux.weave.works/v1alpha2
+apiVersion: flux.weave.works/v1beta1
 kind: FluxHelmRelease
 metadata:
   name: mariadb
@@ -7,7 +7,13 @@ metadata:
   labels:
     chart: mariadb
 spec:
-  chartGitPath: mariadb
+  chart:
+    # git:
+    #   path: mariadb
+    repo:
+      url: https://kubernetes-charts.storage.googleapis.com/
+      name: mariadb
+      version: 4.4.2
   values:
     maria:
       image: bitnami/mariadb:10.2-ol-7-master
