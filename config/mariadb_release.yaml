@@ -8,12 +8,10 @@ metadata:
     chart: mariadb
 spec:
   chart:
-    # git:
-    #   path: mariadb
-    repo:
-      url: https://kubernetes-charts.storage.googleapis.com/
-      name: mariadb
-      version: 4.4.2
+    # gitPath: mariadb
+    url: https://kubernetes-charts.storage.googleapis.com/
+    name: mariadb
+    version: 4.4.2
   values:
     maria:
       image: bitnami/mariadb:10.2-ol-7-master
