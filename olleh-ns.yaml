@@ -4,4 +4,4 @@ kind: Namespace
 metadata:
   name: olleh
   labels:
-    foo: bar
+    foo: baz
