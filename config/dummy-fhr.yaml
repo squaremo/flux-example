@@ -1,3 +1,4 @@
+---
 apiVersion: helm.integrations.flux.weave.works/v1alpha2
 kind: FluxHelmRelease
 metadata:
@@ -13,7 +14,7 @@ spec:
   values:
     image:
       repository: weaveworks/hello-world
-      tag: latest
+      tag: alpine
     ingress:
       hosts:
       - host.tld.foo
