@@ -1,0 +1,20 @@
+apiVersion: helm.integrations.flux.weave.works/v1alpha2
+kind: FluxHelmRelease
+metadata:
+  name: greatapp-feature-flux
+  namespace: default
+  labels:
+    chart: chart
+  annotations:
+    flux.weave.works/automated: "false"
+spec:
+  chartGitPath: chart
+  releaseName: greatapp-feature-flux
+  values:
+    image:
+      repository: nexus.company.example.com:5000/namespace/greatapp
+      tag: e6e9d3a5ab1869ca0595eda1024985f100b68652
+    ingress:
+      hosts:
+      - host.tld.foo
+    externalSecret: "true"
