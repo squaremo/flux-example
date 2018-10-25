@@ -6,7 +6,7 @@ metadata:
   annotations:
     some.other.com/foo: bar
     flux.weave.works/automated: 'true'
-    flux.weave.works/tag.helloworld: glob:latest
+    flux.weave.works/tag.helloworld: glob:alpine
     flux.weave.works/tag.hello: glob:master-*
     flux.weave.works/tag.init: glob:master-*
   name: helloworld
