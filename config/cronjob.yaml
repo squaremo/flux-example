@@ -6,7 +6,6 @@ metadata:
   name: weekly-curl-homepage
   annotations:
     weave.works.some-annotation: Just for fidelity
-    flux.weave.works/automated: 'true'
     flux.weave.works/tag.weekly-curl-homepage: semver:^6
 spec:
   # Here is a multiline comment
