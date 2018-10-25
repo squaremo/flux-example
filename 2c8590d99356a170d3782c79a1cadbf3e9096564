@@ -1,0 +1,1 @@
+{"jobID":"a9edfdb8-a279-7f32-8a9f-0477b13111dd","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmichael@weave.works\u003e"},"spec":{"hello:deployment/helloworld":{"add":{"tag.helloworld":"glob:alpine"},"remove":null}}},"result":null}
