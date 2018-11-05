@@ -8,7 +8,7 @@ metadata:
 spec:
   chart:
     git: git@github.com:squaremo/flux-helm-test
-    path: podinfo
+    path: charts/podinfo
   releaseName: backend
   values:
     image:
