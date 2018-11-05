@@ -6,8 +6,8 @@ metadata:
 spec:
   chart:
     repository: https://helm.iowa.weavedx.com
-    name: podinfo
-    version: 0.1.0
+    name: podinfo-flagger
+    version: 2.0.0
   values:
     image:
       repository: stefanprodan/podinfo
