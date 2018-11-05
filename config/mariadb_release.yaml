@@ -1,14 +1,11 @@
 ---
 apiVersion: flux.weave.works/v1beta1
-kind: FluxHelmRelease
+kind: HelmRelease
 metadata:
   name: mariadb
   namespace: default
-  labels:
-    chart: mariadb
 spec:
   chart:
-    # gitPath: mariadb
     repository: https://kubernetes-charts.storage.googleapis.com/
     name: mariadb
     version: 4.4.2
@@ -24,6 +21,5 @@ spec:
       image:
         repository: sidecars-inc/desmondo
         tag: 0.1.8
-
     persistence:
       enabled: false

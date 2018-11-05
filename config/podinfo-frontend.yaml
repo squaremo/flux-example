@@ -1,12 +1,13 @@
-apiVersion: helm.integrations.flux.weave.works/v1alpha2
-kind: FluxHelmRelease
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
 metadata:
   name: frontend
   namespace: default
-  labels:
-    chart: podinfo
 spec:
-  chartGitPath: podinfo
+  chart:
+    repo: https://helm.iowa.weavedx.com
+    name: podinfo
+    version: 0.1.0
   values:
     image:
       repository: stefanprodan/podinfo
