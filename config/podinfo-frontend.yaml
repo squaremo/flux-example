@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   chart:
-    repo: https://helm.iowa.weavedx.com
+    repository: https://helm.iowa.weavedx.com
     name: podinfo
     version: 0.1.0
   values:
