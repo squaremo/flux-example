@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: alpine
+        image: alpine:3.5
         args:
         - -greeting=Init
         ports:
