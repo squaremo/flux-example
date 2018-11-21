@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: quay.io/weaveworks/helloworld:master-07a1b6b
+        image: alpine
         args:
         - -greeting=Init
         ports:
