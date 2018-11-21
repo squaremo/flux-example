@@ -2,13 +2,6 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-#    flux.weave.works/tag.sidecar: glob:3.*
-  annotations:
-    some.other.com/foo: bar
-    flux.weave.works/automated: 'true'
-    flux.weave.works/tag.helloworld: glob:alpine
-    flux.weave.works/tag.hello: glob:master-*
-    flux.weave.works/tag.init: glob:master-*
   name: helloworld
   namespace: hello
 spec:
@@ -19,16 +12,11 @@ spec:
       labels:
         name: helloworld
     spec:
-      initContainers:
-      - name: init
+      containers:
+      - name: hello
         image: quay.io/weaveworks/helloworld:master-07a1b6b
         args:
-        - -msg=Init
-      containers:
-      - name: helloworld
-        image: weaveworks/hello-world:alpine
-        args:
-        - -greeting=Ahoy
+        - -greeting=Init
         ports:
         - containerPort: 80
       restartPolicy: Always
