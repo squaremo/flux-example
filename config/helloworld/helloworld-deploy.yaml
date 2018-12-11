@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: weaveworks/hello-world:latest
+        image: weaveworks/hello-world:alpine
         ports:
         - containerPort: 80
       restartPolicy: Always
