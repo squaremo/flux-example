@@ -13,7 +13,7 @@ spec:
     version: 4.4.2
   values:
     maria:
-      image: bitnami/mariadb:10.2.19-ol-7-r28
+      image: bitnami/mariadb:10.1.37-debian-9-r37
     frank:
       image: sidecars-inc/frank
       tag: v1
