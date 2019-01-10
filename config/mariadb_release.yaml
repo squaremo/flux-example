@@ -4,8 +4,6 @@ kind: HelmRelease
 metadata:
   name: mariadb
   namespace: default
-  annotations:
-    flux.weave.works/automated: 'true'
 spec:
   chart:
     repository: https://kubernetes-charts.storage.googleapis.com/
