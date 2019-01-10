@@ -1,0 +1,1 @@
+{"jobID":"1137f956-bbef-5bb1-ad4f-411fad0e1e70","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmikeb@squaremobius.net\u003e"},"spec":{"default:helmrelease/mariadb":{"add":{},"remove":{"automated":"true"}}}},"result":null}
