@@ -1,0 +1,1 @@
+{"jobID":"c060a65d-ba47-b87f-ef7f-d480227c2976","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmichael@weave.works\u003e"},"spec":{"default:cronjob/weekly-curl-homepage":{"add":null,"remove":{"automated":"true"}}}},"result":null}
