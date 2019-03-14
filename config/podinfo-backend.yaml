@@ -13,4 +13,4 @@ spec:
   values:
     image:
       repository: stefanprodan/podinfo
-      tag: 0.0.8
+      tag: 0.0.9
