@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: www-example-io
-        image: quay.io/weaveworks/helloworld:master-07a1b6b
+        image: quay.io/weaveworks/helloworld:master-a000004
         imagePullPolicy: Always
         ports:
         - containerPort: 80
