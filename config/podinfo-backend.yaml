@@ -2,9 +2,6 @@ apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
   name: backend
-  namespace: default
-  labels:
-    chart: podinfo
 spec:
   chart:
     git: git@github.com:squaremo/flux-helm-test
