@@ -1,3 +1,4 @@
+---
 apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
@@ -11,4 +12,4 @@ spec:
   values:
     image:
       repository: stefanprodan/podinfo
-      tag: 0.0.6
+      tag: 5142c39
