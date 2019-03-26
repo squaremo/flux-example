@@ -11,4 +11,4 @@ spec:
   values:
     image:
       repository: stefanprodan/podinfo
-      tag: 5142c39
+      tag: 43df2d1
