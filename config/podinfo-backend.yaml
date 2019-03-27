@@ -3,6 +3,9 @@ apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
   name: backend
+  annotations:
+    flux.weave.works/locked_user: Michael Bridgen <mikeb@squaremobius.net>
+    flux.weave.works/locked: 'true'
 spec:
   chart:
     git: git@github.com:squaremo/flux-helm-test
