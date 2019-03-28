@@ -1,0 +1,1 @@
+{"jobID":"bed8f419-b9d0-b6c8-1f9c-21089f8c5e75","spec":{"type":"policy","cause":{"Message":"","User":"Michael Bridgen \u003cmikeb@squaremobius.net\u003e"},"spec":{"default:helmrelease/backend":{"add":{},"remove":{"locked":"true","locked_msg":"true","locked_user":"true"}}}},"result":null}
