@@ -13,7 +13,7 @@ spec:
         name: helloworld
     spec:
       containers:
-      - name: mello
+      - name: fello
         image: quay.io/weaveworks/helloworld:master-07a1b6b
         ports:
         - containerPort: 80
