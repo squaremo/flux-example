@@ -6,7 +6,7 @@ metadata:
   namespace: hello
 spec:
   minReadySeconds: 5
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
