@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mello
-        image: quay.io/weaveworks/helloworld:master-07a1b6b
+        image: squaremo/helloworld:master-a000001
         ports:
         - containerPort: 80
       restartPolicy: Always
