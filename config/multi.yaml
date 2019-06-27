@@ -4,6 +4,9 @@ kind: Deployment
 metadata:
   annotations:
     flux.weave.works/tag.www-example-io: glob:master-*
+    flux.weave.works/locked: 'true'
+    flux.weave.works/locked_msg: "\"It's been a bad service.\""
+    flux.weave.works/locked_user: Michael Bridgen <michael@weave.works>
   name: www-example-io
 spec:
   replicas: 2
