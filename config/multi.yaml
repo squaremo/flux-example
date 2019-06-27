@@ -4,7 +4,6 @@ kind: Deployment
 metadata:
   annotations:
     flux.weave.works/tag.www-example-io: glob:master-*
-    flux.weave.works/automated: 'true'
   name: www-example-io
 spec:
   replicas: 2
