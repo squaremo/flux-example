@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mello
-        image: squaremo/helloworld:master-a000001
+        image: squaremo/helloworld:master-a000002
         ports:
         - containerPort: 80
       restartPolicy: Always
