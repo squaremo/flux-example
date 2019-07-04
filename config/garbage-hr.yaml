@@ -3,7 +3,7 @@ apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
   name: garbage
-  namespace: furble
+  namespace: default
 spec:
   chart:
     git: https://github.com/squaremo/flux-example
