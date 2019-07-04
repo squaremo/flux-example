@@ -3,9 +3,10 @@ apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
   name: garbage
-  namespace: default
+  namespace: furble
 spec:
   chart:
     git: https://github.com/squaremo/flux-example
     path: charts/garbage
-  values: {}
+  values:
+    unused: "force a re-release"
