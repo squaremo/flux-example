@@ -5,6 +5,8 @@ metadata:
 #    flux.weave.works/tag.sidecar: glob:3.*
   name: helloworld
   namespace: olleh
+  annotations:
+    flux.weave.works/automated: 'true'
 spec:
   minReadySeconds: 1
   replicas: 5
