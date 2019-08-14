@@ -3,6 +3,8 @@ kind: Service
 metadata:
   name: helloworld
   namespace: hello
+  labels:
+    app: helloworld
 spec:
   type: NodePort
   ports:
