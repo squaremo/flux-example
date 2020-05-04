@@ -1,5 +1,5 @@
 ---
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
 #    flux.weave.works/tag.sidecar: glob:3.*
@@ -8,12 +8,15 @@ metadata:
   annotations:
     flux.weave.works/automated: 'true'
 spec:
+  selector:
+    matchLabels:
+      name: ollehworld
   minReadySeconds: 1
   replicas: 5
   template:
     metadata:
       labels:
-        name: helloworld
+        name: ollehworld
     spec:
       containers:
       - name: helloworld
